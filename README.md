@@ -13,3 +13,11 @@ A pre-determined list of possible words is supplied, and the random.choice() met
 The user is then asked to provide a single letter as input, using the Python input() function. This input is assigned to the variable "guess". This occurs in a while loop, such that while the input length is not equal to one, the user is reminded of the input constraints, and re-prompted for a new input.
 
 Once a single-character input is stored in the variable "guess", the .isalpha() method is used in an if statement, to determine whether the single-character guess is alphabetical. If isalpha(guess) returns true, then the user is thanked for their input, otherwise the user is told the guess is invalid.
+
+### Milestone 3:
+
+Two functions are defined:
+
+ask_for_input() - Checks if the input is an alphabeth and in the length of 1.
+
+check_guess() - This function checks the validity of the guess, and feeds it back to the user.
