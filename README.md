@@ -21,3 +21,7 @@ Two functions are defined:
 ask_for_input() - Checks if the input is an alphabeth and in the length of 1.
 
 check_guess() - This function checks the validity of the guess, and feeds it back to the user.
+
+### Milestone 4:
+
+This iteration of the Hangman code defines Hangman as an object class, with various attributes representing the current game state (eg. number of lives remaining, list of previous guesses), and the functions developed in milestone 3 are reproduced as methods inside the class. The game can be started by instantiating a Hangman object, passing it a list of possible words, from which it will choose a random word as the focus of the game.
